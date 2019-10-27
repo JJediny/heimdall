@@ -1,5 +1,26 @@
 # Change Log
 
+## [2.9.0](https://github.com/mitre/heimdall/tree/2.9.0) (2019-10-25)
+[Full Changelog](https://github.com/mitre/heimdall/compare/v2.8.4...2.9.0)
+
+**Merged pull requests:**
+
+- Linux script [\#93](https://github.com/mitre/heimdall/pull/93) ([mrtollick](https://github.com/mrtollick))
+
+## [v2.8.4](https://github.com/mitre/heimdall/tree/v2.8.4) (2019-10-17)
+[Full Changelog](https://github.com/mitre/heimdall/compare/v2.8.3...v2.8.4)
+
+**Merged pull requests:**
+
+- fixed upload error [\#92](https://github.com/mitre/heimdall/pull/92) ([robthew](https://github.com/robthew))
+
+## [v2.8.3](https://github.com/mitre/heimdall/tree/v2.8.3) (2019-10-09)
+[Full Changelog](https://github.com/mitre/heimdall/compare/v2.8.2...v2.8.3)
+
+**Merged pull requests:**
+
+- updated counts [\#91](https://github.com/mitre/heimdall/pull/91) ([robthew](https://github.com/robthew))
+
 ## [v2.8.2](https://github.com/mitre/heimdall/tree/v2.8.2) (2019-10-07)
 [Full Changelog](https://github.com/mitre/heimdall/compare/v2.8.1...v2.8.2)
 
@@ -60,7 +81,9 @@
 
 **Merged pull requests:**
 
+- updated cookie settings [\#75](https://github.com/mitre/heimdall/pull/75) ([robthew](https://github.com/robthew))
 - Security settings [\#73](https://github.com/mitre/heimdall/pull/73) ([robthew](https://github.com/robthew))
+- Upgrade Vagrantfile to use postgres-11 [\#69](https://github.com/mitre/heimdall/pull/69) ([rbclark](https://github.com/rbclark))
 
 ## [v2.7.2](https://github.com/mitre/heimdall/tree/v2.7.2) (2019-09-04)
 [Full Changelog](https://github.com/mitre/heimdall/compare/v2.6.2...v2.7.2)
@@ -83,16 +106,11 @@
 - Relative paths [\#72](https://github.com/mitre/heimdall/pull/72) ([robthew](https://github.com/robthew))
 - Paths [\#71](https://github.com/mitre/heimdall/pull/71) ([robthew](https://github.com/robthew))
 - Add support for serving from subdirectories from Dockerfile [\#70](https://github.com/mitre/heimdall/pull/70) ([rbclark](https://github.com/rbclark))
-- Upgrade Vagrantfile to use postgres-11 [\#69](https://github.com/mitre/heimdall/pull/69) ([rbclark](https://github.com/rbclark))
 - Create circles if they do not already exist and are requested via the API [\#65](https://github.com/mitre/heimdall/pull/65) ([rbclark](https://github.com/rbclark))
 - Move over to using DATABASE\_URL for better support of external databases [\#63](https://github.com/mitre/heimdall/pull/63) ([rbclark](https://github.com/rbclark))
 
 ## [v2.6.2](https://github.com/mitre/heimdall/tree/v2.6.2) (2019-08-12)
 [Full Changelog](https://github.com/mitre/heimdall/compare/v2.6.1...v2.6.2)
-
-**Fixed bugs:**
-
-- Clear Filter Button is Overlapped by Lower Rows of Evaluation [\#58](https://github.com/mitre/heimdall/issues/58)
 
 **Merged pull requests:**
 
@@ -103,6 +121,7 @@
 
 **Fixed bugs:**
 
+- Clear Filter Button is Overlapped by Lower Rows of Evaluation [\#58](https://github.com/mitre/heimdall/issues/58)
 - Change "Control" to "Test" for Status and Impact labels [\#57](https://github.com/mitre/heimdall/issues/57)
 - For count tiles, change "Findings" label to "Test Counts" [\#54](https://github.com/mitre/heimdall/issues/54)
 - List formula for Compliance % [\#53](https://github.com/mitre/heimdall/issues/53)
@@ -149,7 +168,6 @@
 
 **Merged pull requests:**
 
-- updated cookie settings [\#75](https://github.com/mitre/heimdall/pull/75) ([robthew](https://github.com/robthew))
 - patched gems [\#40](https://github.com/mitre/heimdall/pull/40) ([robthew](https://github.com/robthew))
 - Updated inspec and added versioning tools [\#39](https://github.com/mitre/heimdall/pull/39) ([robthew](https://github.com/robthew))
 - Caat fix [\#38](https://github.com/mitre/heimdall/pull/38) ([robthew](https://github.com/robthew))
