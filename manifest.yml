@@ -1,0 +1,19 @@
+---
+applications:
+-  name: heimdall-prod
+   command: bundle exec rails s -p $PORT
+   buildpacks:
+   - https://github.com/cloudfoundry/nodejs-buildpack.git   
+   - https://github.com/cloudfoundry/ruby-buildpack.git
+   instances: 1
+   memory: 2G
+   services:
+   - postgresql
+   env:
+     MAX_THREADS: 5
+     WEB_CONCURRENCY: 3
+     RAILS_SERVE_STATIC_FILES: "true"
+     HEIMDALL_RELATIVE_URL_ROOT: ""
+     DISABLE_SPRING: "true"
+     RAILS_ENV: production
+     RACK_ENV: production
